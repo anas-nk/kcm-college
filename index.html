@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - KCM College of Engineering|</title>
+    <link rel="icon" href="https://rdawvgw5kcwy.cdn.shift8web.com/wp-content/uploads/2022/09/favicon.png">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+     <style>
+     @media(max-width:600px){
+      .navbar-brand {
+          width:45%;
+      }
+
+     }
+         .inner{
+    color: #fff;
+    opacity: 0;
+    z-index: 100;
+}
+ .item:hover .inner{
+    opacity: 1;
+}
+
+.inner-head{
+    width: 100%;
+    color: #fff;
+    top: 80%;
+    text-align: center;
+    z-index: 100;
+}
+
+.inner p{
+    padding-top: 35%;
+     padding-left: 15px;
+     padding-right: 18px;
+}
+
+.item:hover p{
+    padding-top: 50%;
+    transition: all .4s ease-in;
+}
+
+.border-btm{
+    width: 100%;
+    content: '';
+}
+
+.null-div{
+    content: '';
+    width: 100%;
+    height: 350px;
+    bottom: 0;
+    opacity: 0;
+}
+
+.item:hover .null-div{
+    height:100%;
+    opacity: 1;
+    transition: all .4s ease-in;
+}
+.border-1{
+    border-bottom: 13px solid  rgb(239, 91, 91);
+}
+
+.border-2{
+    border-bottom: 13px solid  rgb(23, 104, 38);
+}
+
+.border-3{
+    border-bottom: 13px solid  red;
+}
+
+.border-4{
+    border-bottom: 13px solid #337ab7;
+}
+
+.border-5{
+    border-bottom: 13px solid rgb(204, 153, 51);
+}
+
+.border-6{
+    border-bottom: 13px solid rgb(124, 72, 0);;
+}
+
+.null-div-1{
+    background-color: rgba(239, 91, 91,.8);
+}
+
+.null-div-2{
+    background-color:rgba(23, 104, 38, 0.8);
+}
+
+.null-div-3{
+    background-color: rgba(204, 102, 0, .8);
+}
+
+.null-div-4{
+    background-color: rgba(47, 129, 201,.6);
+}
+
+.null-div-5{
+    background-color: rgba(204, 153, 51, .8);;
+}
+
+.null-div-6{
+    background-color: rgba(124, 72, 0, .8);;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: 0 0;
+     color: #fff;
+     border: none;
+     font-size:40px ;
+     width: 40px;
+     background-color: rgba(228, 218, 218,.4);
+ }
+
+ .owl-prev,
+ .owl-next{
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+
+ .owl-prev{
+     left: 0;
+ }
+
+ .owl-next{
+     right: 0;
+ }
+
+ .explore-btn{
+    border: none;
+    padding: 7px 15px;
+    background-color: #036;
+    text-align: center;
+    cursor: pointer;
+ }
+
+ /* photo gallery */
+
+ .photo-galary .photo{
+    background-color: rgba(0, 0, 0,.5);
+    bottom: 0;
+    color: #fff;
+}
+
+.photo-galary .photo h5{
+    margin-top: 8px;
+}
+
+/* Connect with us */
+
+.connect-us .social-media-icons{
+    list-style-type: none;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.connect-us .social-media-icons .list-item{
+    width: 80px;
+    padding: 18px 0;
+    text-align: center;
+}
+
+.connect-us .social-media-icons .item-1{
+    background-color: red;
+
+}
+
+.connect-us .social-media-icons .item-2{
+    background-color: #3b5999;
+}
+
+.connect-us .social-media-icons .item-3{
+    background-color:#27aae1;
+}
+
+.connect-us .social-media-icons .item-4{
+    background-color: #5280a5;
+}
+
+.connect-us .social-media-icons .item-5{
+    background-color:#189d0e;
+}
+
+.connect-us .social-media-icons .item-6{
+    background-color:red;
+}
+
+.connect-us .social-media-icons .item-7{
+    background-color:#0e76a8;
+}
+
+.connect-us .container hr{
+    color:  rgb(148, 147, 147);;
+}
+
+/* responsive carousel */
+.carousel-1{
+    position:relative;
+    top:165px;
+}
+.experience{
+    margin-top:170px;
+}
+.marque{
+   position:absolute;
+   top:0px;
+   left:0px;
+   z-index:100;
+   right:0px;
+}
+@media (max-width:1220px){
+    .marque{
+        top:20px;
+    }
+    .carousel-1{
+    position:relative;
+    top:200px;
+    }
+   .experience{
+    margin-top:210px;
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 190px;
+    }
+
+    .carousel-item h6{
+        background-color: orange;
+        display: inline-block;
+        color: #fff;
+        font-weight: bold;
+        padding: 8px 30px;
+        border-radius: 8px;
+        animation: btm-to-tp 1s ease-in  forwards;
+        opacity: 0;
+    }
+
+    .carousel-item h1{
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        animation: btm-to-tp-2 1s ease-in .3s forwards;
+        opacity: 0;
+
+    }
+
+    .carousel-item h2{
+        animation: btm-to-tp-3 1s ease-in .7s forwards;
+        opacity: 0;
+        font-size: 40px;
+    }
+
+    .carousel-item h3{
+        animation: btm-to-tp-5 1s ease-in 1s forwards;
+        opacity: 0;
+    }
+
+    .carousel-item button{
+        padding: 18px 30px;
+        outline: none;
+        border: none;
+        font-weight: bold;
+        animation: btm-to-tp-4 1s ease-in 1.3s forwards;
+        opacity: 0;
+
+    }
+
+    .carousel-item .btn-2{
+        background-color: #fff;
+        color: black;
+    }
+    .carousel-item .img-2{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        animation: btm-to-tp-6 1s ease-in 2s forwards;
+        opacity: 0;
+        width: 360px;
+    }
+
+}
+@media (max-width:800px){
+    .marque{
+        top:20px;
+    }
+    .carousel-caption{
+        position: absolute;
+        top: 100px;
+    }
+
+    .carousel-item h6{
+        background-color: orange;
+        display: inline-block;
+        color: #fff;
+        font-weight: bold;
+        padding: 8px 25px;
+        border-radius: 8px;
+        animation: btm-to-tp 1s ease-in  forwards;
+        opacity: 0;
+    }
+
+    .carousel-item h1{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        animation: btm-to-tp-2 1s ease-in .3s forwards;
+        opacity: 0;
+
+    }
+
+    .carousel-item h2{
+        animation: btm-to-tp-3 1s ease-in .7s forwards;
+        opacity: 0;
+        font-size: 30px;
+    }
+
+    .carousel-item h3{
+        animation: btm-to-tp-5 1s ease-in 1s forwards;
+        opacity: 0;
+    }
+
+    .carousel-item button{
+        padding: 18px 24px;
+        outline: none;
+        border: none;
+        font-weight: bold;
+        animation: btm-to-tp-4 1s ease-in 1.3s forwards;
+        opacity: 0;
+
+    }
+
+    .carousel-item .btn-2{
+        background-color: #fff;
+        color: black;
+    }
+    .carousel-item .img-2{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        animation: btm-to-tp-6 1s ease-in 2s forwards;
+        opacity: 0;
+        width: 300px;
+    }
+
+}
+@media (max-width:500px){
+    .carousel-caption{
+        position: absolute;
+        top: 30px;
+    }
+
+    .carousel-item h6{
+        background-color: orange;
+        display: inline-block;
+        color: #fff;
+        font-weight: bold;
+        padding: 8px 15px;
+        border-radius: 8px;
+        animation: btm-to-tp 1s ease-in  forwards;
+        opacity: 0;
+    }
+
+    .carousel-item h1{
+        font-size: 15px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        animation: btm-to-tp-2 1s ease-in .3s forwards;
+        opacity: 0;
+
+    }
+
+    .carousel-item h2{
+        animation: btm-to-tp-3 1s ease-in .7s forwards;
+        opacity: 0;
+        font-size: 15px;
+    }
+
+    .carousel-item h3{
+        animation: btm-to-tp-5 1s ease-in 1s forwards;
+        opacity: 0;
+    }
+
+    .carousel-item button{
+        padding: 10px 15px;
+        outline: none;
+        border: none;
+        font-weight: bold;
+        animation: btm-to-tp-4 1s ease-in 1.3s forwards;
+        opacity: 0;
+
+    }
+
+    .carousel-item .btn-2{
+        background-color: #fff;
+        color: black;
+    }
+    .carousel-item .img-2{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        animation: btm-to-tp-6 1s ease-in 2s forwards;
+        opacity: 0;
+        width: 300px;
+    }
+    }
+
+    /* card */
+    .card:hover{
+        background-color:orange;
+        box-shadow:0px 0px 16px rgba(0,0,0,0.5);
+    }
+
+    /* Modal */
+
+           /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index:500; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto; /* Center the modal */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+   box-shadow:0px 0px 15px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  position:absolute;
+  right:10px;
+  top:10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Blur the background when the modal is open */
+body.modal-open {
+  overflow: hidden;
+}
+.modal form{
+  padding: 20px;
+
+}
+
+.modal input{
+  width: 100%;
+  margin-bottom: 20px;
+  height: 45px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.modal select{
+  width: 103%;
+  margin-bottom: 20px;
+  height: 45px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.modal input:focus{
+  outline: none;
+}
+
+.modal label{
+  text-align: start;
+  font-size: 21px;
+  font-weight: bold;
+}
+.modal h2{
+  text-align: center;
+  margin-top:25px;
+}
+.modal form input[type="submit"]{
+  width: 40%;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  margin-left: 30%;
+}
+@media (max-width:1300px){
+  .modal-content {
+    width:50%;
+  }
+}
+@media (max-width:550px){
+  .modal-content {
+    width:80%;
+  }
+}
+
+
+     </style>
+</head>
+<body style="height:auto;">
+    <!-- head-section -->
+    <div class="main-header"style="position:fixed; z-index:300; left:0px; right:0px;">
+    <header >
+        <div class="container-fluid ">
+
+                <div class="container gap-xl-0 gap-3  top-section d-flex justify-content-center justify-content-xl-between align-items-center">
+                    <div class="contact d-flex align-items-center">
+                        <span><i class="fa-solid text-white fa-phone-flip"></i>&nbsp; &nbsp;  +91 70340 86305</span>
+                        <span><i class="fa-solid fa-envelope text-white"></i> &nbsp; &nbsp;kcmgroupkkd@swehg.com</span>
+                        <span><i class="fa-sharp fa-solid fa-location-dot text-white"></i>&nbsp; &nbsp; Mavoor Road, Calicut.</span>
+                    </div>
+                    <div class="icons mb-3 mb-xl-0">
+                        <span><a href="https://twitter.com/StudyWorldcbe"><i class="fa-brands fa-twitter text-secondary fa-xl"></i></a></span>
+                        <span><a href="https://www.facebook.com/studyworldeng/"><i class="fa-brands fa-facebook text-secondary fa-xl"></i></a></span>
+                        <span><a href="https://www.instagram.com/studyworldeng/?hl=en"><i class="fa-brands fa-instagram text-secondary fa-xl"></i></a></span>
+                        <span><a href="https://www.youtube.com/channel/UCbMkk05LuXRiq8AihxMTICQ"><i class="fa-brands fa-youtube text-secondary fa-xl"></i></a></span>
+                        <span><a href="https://www.linkedin.com/in/swce/?originalSubdomain=in"><i class="fa-brands fa-linkedin text-secondary fa-xl"></i></a></span>
+                    </div>
+                </div>
+
+        </div>
+    </header>
+
+    <section class="navigation" >
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-lg container-fluid">
+              <a class="navbar-brand" href="#"><img src="logo-swce (1).png " class="img-fluid" width="44%" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="wrap">
+                <div class="search">
+                   <input type="search" class="searchTerm" placeholder="search">
+                   <button type="submit" class="searchButton">
+                     <i class="fa fa-search"></i>
+                  </button>
+                </div>
+             </div>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-lg-auto ms-2">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                   <div class="dropdown">
+                      <button class="dropbtn" style="white-space: nowrap;">About Us
+                        <i class="fa-solid fa-caret-down icon-1"></i>
+                        <i class="fa-sharp fa-solid fa-caret-up icon-2" ></i>
+                      </button>
+                      <div class="dropdown-content" style="z-index:200;">
+                        <a href="group.py">The Group</a>
+                        <a href="AboutUs.py">KCM Educational Trust</a>
+                        <a href="promoters.py">Promoters</a>
+                        <a href="principal.py">Principal</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="courses.py">Courses</a>
+                  </li>
+                  <li class="nav-item ">
+                   <div class="dropdown">
+                      <button class="dropbtn" style="white-space: nowrap;">Login
+                        <i class="fa-solid fa-caret-down icon-1"></i>
+                        <i class="fa-sharp fa-solid fa-caret-up icon-2" ></i>
+                      </button>
+                      <div class="dropdown-content" style="z-index:200;">
+                        <a href="adminLogin.py">Admin</a>
+                        <a href="staffLogin.py">Staff</a>
+                        <a href="studLogin.py">Student</a>
+                      </div>
+                    </div>
+                  </li>
+
+                      <li class="nav-item"> <a href="ContactUs.py" class="nav-link">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    </div>
+
+    <section class="carousel-1">
+        <!-- Modal -->
+        <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>REGISTRATION FOR COURSE</h2>
+      <form>
+        <label for="username">Full Name </label>
+        <input type="text" id="username" name="username" placeholder="Enter your name"><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+
+        <label for="phone">Mobile</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><br>
+
+        <label for="phone">Select Course</label>
+        <select name="course" id="course">
+          <option value="">select course</option>
+          <option value="B.E Mechanical Engineering">B.E Mechanical Engineering</option>
+          <option value="B.E Electronics and Communication Engineering">B.E Electronics and Communication Engineering</option>
+          <option value="B.E Electrical and Electronics Engineering">B.E Electrical and Electronics Engineering</option>
+          <option value="B.E Computerscience and Engineering">B.E Computerscience and Engineering</option>
+        </select>
+
+        <input type="submit" value="Register">
+      </form>
+    </div>
+  </div>
+       
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+                  <div class="carousel-item active"  >
+                    <img src="img-1.jpg" class="d-block w-100 img-fluid img-1"  alt="..." style="max-height: 600px;">
+                    <div class="carousel-caption mt-5" >
+                        <h6>KCM GROUP</h6>
+                      <h1>KCM College Of Engineering,</h1>
+                      <h2 class="mt-3">Your Future Begins Here</h2>
+                      <button class="btn btn-primary mt-4"  id="loginBtn">Enquire Now</button>
+
+                    </div>
+                    <img src="slider-university-layer.png " class="img-fluid img-2"  alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img-2.jpg" class="d-block w-100 img-fluid" alt="..."style="max-height: 600px;">
+                    <div class="carousel-caption  d-md-block">
+                        <h6>KCM GROUP OF COLLEGES</h6>
+                        <h1>Admission Started</h1>
+                        <h2 class="mt-3" style="font-weight: bold; ">For 2023-24 Batch</h2>
+                        <h3 class="mb-5  mt-4 ">Admission open for 2023-24 batches</h3>
+                        <button class="btn btn-primary mt-1 mt-md-4 me-md-5 me-1" id="loginBtn2" >Apply Now</button>
+                        <button class="btn btn-2 btn-primary  mt-1 mt-md-4">Learn More</button>
+                    </div>
+                    <img src="slider-university-layer.png " class="img-fluid img-2"  alt="">
+                  </div>
+                  <div class="carousel-item" >
+                    <img src="img-3.jpg" class="d-block w-100 img-fluid" alt="..."style="max-height: 600px;">
+                    <div class="carousel-caption d-md-block ">
+                        <h6>KCM GROUP OF EDUCATIONAL INSTITUTIONS</h6>
+                        <h1 class="mt-3 mb-2 mb-md-3">Our Educational <br> Programs</h1>
+                        <h2 class="mt-3 mb-3 mb-md-5">Our Engineering Undergraduate Programs</h2>
+                        <button class="btn btn-primary mt-1 mt-md-4 me-md-5 me-1" id="loginBtn3" >Apply Now</button>
+                        <button class="btn btn-2 mt-1 mt-md-4" >Learn More</button>
+                    </div>
+                    <img src="slider-university-layer.png " class="img-fluid img-2"  alt="">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+       <!-- College explore-->
+
+         <section class="pt-4 ps-3 pe-3 text-center experience " >
+      <div class="container-fluid container-xl">
+         <div class="d-flex justify-content-center mb-4">
+             <div style="display:inline-block">
+                 <h2 >Explore College</h2>
+                 <hr style="height:8px;text-align:center; border-radius:5px; background-color:blue;">
+             </div>
+        </div>
+           <div class="owl-carousel owl-1 owl-theme pt-3">
+              <div class="item position-relative">
+                 <img src="owl-1.jpeg" class="img-fluid" alt="" />
+                    <h2 class="position-absolute inner-head fw-bold">TEACHERS</h2>
+                      <div class="inner position-absolute top-0 w-100 h-100">
+                        <p class="text-center">
+                          "Teaching is a profession that teaches all other professions",
+                            We provide highly qualified , effective and student friendly teachers.
+                        </p>
+                      </div>
+                        <div class="border-btm border-1 position-absolute bottom-0"></div>
+                          <div class="position-absolute null-div null-div-1"></div>
+              </div>
+              <div class="item position-relative">
+                <img src="owl-2.jpeg" class="img-fluid" alt="" />
+                  <h2 class="position-absolute inner-head fw-bold">GAMES</h2>
+                    <div class="inner position-absolute top-0 w-100 h-100">
+                      <p class="text-center">
+                        "Games improve the talent of students "
+                          we are providing all types of game facilities here.
+                      </p>
+                    </div>
+                      <div class="border-btm border-2 position-absolute bottom-0"></div>
+                      <div class="position-absolute null-div null-div-2"></div>
+              </div>
+              <div class="item position-relative">
+                <img src="owl-3.jpeg" class="img-fluid" alt="" />
+                  <h2 class="position-absolute inner-head fw-bold">LIBRARY</h2>
+                    <div class="inner position-absolute top-0 w-100 h-100">
+                      <p class="text-center">
+                        We provide a open library to students with more space and all other
+                          facilities.
+                      </p>
+                    </div>
+                      <div class="border-btm border-3 position-absolute bottom-0"></div>
+                      <div class="position-absolute null-div null-div-3"></div>
+              </div>
+              <div class="item position-relative">
+                <img src="owl-4.jpeg" class="img-fluid" alt="" />
+                  <h2 class="position-absolute inner-head fw-bold">LAB</h2>
+                    <div class="inner position-absolute top-0 w-100 h-100">
+                      <p class="text-center">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Dolores ipsa aspernatur nobis? Eum,
+                          ducimus  ex id unde at officia a possimus laborum placeat.
+                      </p>
+                    </div>
+                      <div class="border-btm border-4 position-absolute bottom-0"></div>
+                      <div class="position-absolute null-div null-div-4"></div>
+              </div>
+              <div class="item position-relative">
+                <img src="owl-5.jpeg" class="img-fluid" alt="" />
+                  <h2 class="position-absolute inner-head fw-bold">CLASS ROOM</h2>
+                    <div class="inner position-absolute top-0 w-100 h-100">
+                      <p class="text-center">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Dolores ipsa aspernatur nobis? Eum,
+                          ducimus  ex id unde at officia a possimus laborum placeat.
+                      </p>
+                    </div>
+                      <div class="border-btm border-5 position-absolute bottom-0"></div>
+                      <div class="position-absolute null-div null-div-5"></div>
+              </div>
+              <div class="item position-relative">
+                <img src="owl-6.jpeg" class="img-fluid" alt="" />
+                  <h2 class="position-absolute inner-head fw-bold">HOSTEL</h2>
+                    <div class="inner position-absolute top-0 w-100 h-100">
+                      <p class="text-center">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Dolores ipsa aspernatur nobis? Eum,
+                          ducimus  ex id unde at officia a possimus laborum placeat.
+                      </p>
+                    </div>
+                      <div class="border-btm border-6 position-absolute bottom-0"></div>
+                      <div class="position-absolute null-div null-div-6"></div>
+              </div>
+        </div>
+      </div>
+      <button type="button" class="text-white explore-btn mt-4">
+        FIND MORE EXPERIENCES <strong> &#62;</strong>
+      </button>
+
+     <section class="container mt-5">
+         <div style="display:inline-block;">
+             <h2>Welcome to KCM</h2>
+             <hr style="height:8px; border-radius:5px; background-color:blue;">
+         </div>
+         <p style="text-align:justify; font-size:18px; color:#09347a;">
+             KCM is one of the leading educational advisory centres in SouthIndia, offering services all ovr India & Abroad for career
+             counselling and Admission guidance through comprehensive expertise and excellence in the field Education
+             KCM takes peasure in providin admission guidance in most of the reputed institutions
+             offering education in every sphere and many more. We provide all – around assitance for studens to get
+             admission in various Professional course under Management / NRI Quota.
+             Study world offers a unique of serice dedicated to advising, councelling and guiding candidates.</p>
+     </section>
+
+             <!-- card section-->
+
+     <section class="container mt-5">
+
+         <div class="row" style=" row-gap:15px;">
+             <div class="col-lg-4 col-sm-6 col-12" style=" display:flex; justify-content:center;">
+                 <div class="card" style="width: 18rem;">
+                      <div>
+                            <img class="card-img-top" src="counselling.jpg">
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title text-dark"> COUNSELLING</h5>
+                        <p class="card-text">Free educational counselling to students and parents regarding all courses.</p>
+
+                      </div>
+                 </div>
+             </div>
+             <div class="col-lg-4 col-sm-6 col-12"style=" display:flex; justify-content:center;">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="19.jpg">
+                      <div class="card-body">
+                        <h5 class="card-title text-dark">INSTITUTES</h5>
+                        <p class="card-text">We guide and prefer recognized and well-known institutions only.</p>
+
+                      </div>
+                 </div>
+             </div>
+             <div class="col-lg-4 col-sm-6 col-12"style=" display:flex; justify-content:center;">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="admission.jpg">
+                      <div class="card-body">
+                        <h5 class="card-title text-dark">ADMISSION PROCESS</h5>
+                        <p class="card-text">Analyzing and sorting out application requirements for admission process.</p>
+
+                      </div>
+                 </div>
+             </div>
+             <div class="col-lg-4 col-sm-6 col-12"style=" display:flex; justify-content:center;">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" height="180px" src="careeer.png">
+                      <div class="card-body">
+                        <h5 class="card-title text-dark">CAREER COUNSELLING</h5>
+                        <p class="card-text">One to one career counselling, choosing & selecting courses, colleges & universities.</p>
+
+                      </div>
+                 </div>
+             </div>
+             <div class="col-lg-4 col-sm-6 col-12"style=" display:flex; justify-content:center;">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="guidence.jpg">
+                      <div class="card-body">
+                        <h5 class="card-title text-dark">SPECIAL GUIDANCE</h5>
+                        <p class="card-text">Special guidance is given to overseas students joining colleges and universities in India and other countries.</p>
+
+                      </div>
+                 </div>
+             </div>
+             <div class="col-lg-4 col-sm-6 col-12"style=" display:flex; justify-content:center;">
+                  <div class="card" style="width: 18rem; ">
+                      <img class="card-img-top" src="scholarship.jpg">
+                      <div class="card-body">
+                        <h5 class="card-title text-dark">SCHOLARSHIP</h5>
+                        <p class="card-text">We offer Scholarship those who are taking admission through KCM</p>
+
+                      </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+
+             <!--Photo Gallery-->
+
+    </section>
+    <section class="photo-galary mb-5 mt-5">
+        <div class="d-flex justify-content-center ">
+
+             <div style="display:inline-block">
+                 <h2 >Explore Photo Galary</h2>
+                 <hr style="height:8px;text-align:center; border-radius:5px; background-color:blue;">
+             </div>
+
+        </div>
+      <div class="container-fluid">
+
+        <div class="row gx-0">
+          <div class="col-xl-2 col-md-3 col-6" >
+            <div class="position-relative">
+              <a href=""><img src="ph-1.jpg" class="img-fluid w-100" alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center ">Inner college</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="position-relative">
+              <a href=""><img src="ph-2.jpg" class="img-fluid w-100" alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center">open way</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="position-relative">
+              <a href=""><img src="ph-3.jpg" class="img-fluid w-100" alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center ">Office building</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="position-relative">
+              <a href=""><img src="ph-4.jpg" class="img-fluid w-100" alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center ">
+                principal cabin
+              </h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="position-relative">
+              <a href=""><img src="ph-5.jpg" class="img-fluid w-100" alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center ">medicine department</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="position-relative">
+              <a href=""><img src="ph-6.jpg" class="img-fluid w-100" alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center ">Guest room</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6 " >
+            <div class="position-relative">
+              <a href=""><img src="ph-7.jpg" class="img-fluid w-100" alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center ">Hostel</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6 ">
+            <div class="position-relative">
+              <a href=""><img src="ph-8.jpg" class="img-fluid w-100" alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center">Eng building</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="position-relative">
+              <a href=""><img src="ph-9.jpg" class="img-fluid w-100" alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center ">coridoor</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6 ">
+            <div class="position-relative">
+              <a href=""><img src="ph-10.jpg" class="img-fluid w-100 " alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center ">
+                visitors section
+              </h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="position-relative">
+              <a href=""><img src="ph-11.jpg" class="img-fluid w-100" alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center ">Attender section</h5>
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-3 col-6">
+            <div class="position-relative">
+              <a href=""><img src="ph-12.jpg" class="img-fluid w-100" alt=""></a>
+            <div class="position-absolute  w-100 photo">
+              <h5 class="text-center ">Meeting Room</h5>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center py-1">
+        <button type="button" class="text-white explore-btn mt-5 mb-5">
+          BROWSER OUR GALARY &nbsp;<i class="fa-solid fa-image"></i>
+       </button>
+     </section>
+    <!-- connect with us-->
+     <section class="connect-us mb-5 mt-4">
+      <div class="container">
+         <div class="d-flex justify-content-center mb-4">
+             <div style="display:inline-block">
+                 <h2 >connect with us</h2>
+                 <hr style="height:8px;text-align:center; border-radius:5px; background-color:blue;">
+             </div>
+        </div>
+        <ul class="list social-media-icons d-flex ps-0">
+          <li class="rounded-circle list-item item-1">
+            <a href="https://www.youtube.com/channel/UCbMkk05LuXRiq8AihxMTICQ"><i class="fa-brands fa-youtube fa-2x text-white"></i></a>
+          </li>
+          <li class="rounded-circle list-item item-2">
+            <a href="https://www.facebook.com/studyworldeng/"><i class="fa-brands fa-facebook-f fa-2x text-white"></i></a>
+          </li>
+          <li class="rounded-circle list-item item-3">
+            <a href="https://twitter.com/StudyWorldcbe"><i class="fa-brands fa-twitter text-white fa-2x "></i></a>
+          </li>
+          <li class="rounded-circle list-item item-4">
+            <a href="https://www.instagram.com/studyworldeng/?hl=en"><i class="fa-brands fa-instagram fa-2x text-white"></i></a>
+          </li>
+          <li class="rounded-circle list-item item-5">
+            <a href=""><i class="fa-brands fa-whatsapp fa-2x text-white"></i></a>
+          </li>
+          <li class="rounded-circle list-item item-6">
+            <a href="https://www.pinterest.com/studyworldcolle/"><i class="fa-brands fa-pinterest-p fa-2x text-white"></i></a>
+          </li>
+          <li class="rounded-circle list-item item-7">
+            <a href="https://www.linkedin.com/in/swce/?originalSubdomain=in"><i class="fa-brands fa-linkedin-in fa-2x text-white"></i></a>
+          </li>
+        </ul>
+
+
+      </div>
+    </section>
+
+           <footer class="pt-5 pt-5 mb-0">
+              <div class="container-fluid container-md">
+                  <div class="row ">
+                      <div class="col-lg-3 col-sm-6 div-1">
+                          <img src="logo-swce-white.png" class="img-fluid " width="180px">
+                          <p class="mt-3">
+                             KCM College of Engineering, started in 2009,
+                              is one of the renowned private institutions of Calicut, India.
+                              The college offers a range of courses approved by AICTE and affiliated to Calicut University.
+                             
+                          </p>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 div-2 ps-5 mt-lg-0 mt-4">
+                          <h3 class="adm mb-5">Admissions</h3>
+                          <a href="#">Eligibility Criteria</a>
+                          <a href="#">Scholarships</a>
+                          <a href="#">Admission Guidelines</a>
+                          <a href="#">Accommodation & Mess</a>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 col-12 ps-5 mt-lg-0 mt-4">
+                          <h3>Gallary</h3>
+                          <div class="img-grid mt-5 ">
+                              <img src="1.jpg" class="img-fluid">
+                              <img src="3.jpg" class="img-fluid">
+                              <img src="11.jpg" class="img-fluid">
+                              <img src="12.jpg" class="img-fluid">
+                              <img src="14.jpg" class="img-fluid">
+                              <img src="19.jpg" class="img-fluid">
+                              <img src="20.jpg" class="img-fluid">
+                              <img src="25.jpg" class="img-fluid">
+                              <img src="26.jpg" class="img-fluid">
+                          </div>
+                      </div>
+                      <div class="col-lg-3 col-sm-6 col-12 ps-5 mt-lg-0 mt-4">
+                          <h3 class="mb-5">Contact us</h3>
+                          <h5>KCM College of Engineering</h5>
+                          <p>
+                               MavoorRoad 
+                               Calicut,
+                             kerala - 641105.
+                          </p>
+                          <p >
+                              mobile:<a href="#" class="mob">+91 7034086305</a><br>
+                              Email:<a href="#" class="email"> kcmgroupkkd@swehg.com</a>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+
+           </footer>
+
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://kit.fontawesome.com/d53d2b527f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+   <!-- initialisation of owl carousel-->
+    <script type="text/javascript">
+      $(".owl-1").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          480: {
+            items: 2,
+          },
+          700:{
+            items: 3,
+          },
+          1100: {
+            items: 4,
+          },
+        },
+      });
+      </script>
+     <script>
+         // Get the modal element
+var modal = document.getElementById("loginModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("loginBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+  document.body.classList.add("modal-open");
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  document.body.classList.remove("modal-open");
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    document.body.classList.remove("modal-open");
+  }
+}
+     </script>
+ <script>
+         // Get the modal element
+var modal = document.getElementById("loginModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("loginBtn2");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+  document.body.classList.add("modal-open");
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  document.body.classList.remove("modal-open");
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    document.body.classList.remove("modal-open");
+  }
+}
+     </script>
+ <script>
+         // Get the modal element
+var modal = document.getElementById("loginModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("loginBtn3");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+  document.body.classList.add("modal-open");
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+  document.body.classList.remove("modal-open");
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+    document.body.classList.remove("modal-open");
+  }
+}
+     </script>
+
+
+</body>
+</html>

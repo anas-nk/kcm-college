@@ -1,0 +1,297 @@
+body{
+    font-family: sans-serif;
+    height: auto;
+}
+
+/* head-section*/
+header .container-fluid{
+    background-color:rgb(73, 85, 97);
+    min-height: 50px;
+}
+header .top-section{
+    min-height: 50px;
+    flex-wrap: wrap;
+}
+.navbar-brand img{
+    width:50%;
+}
+.contact{
+    flex-wrap: wrap;
+}
+header .contact span{
+    color: white;
+    padding: 0 15px;
+    border-right: 1px solid #fff;
+}
+
+.fa-brands{
+    padding: 0 7px;
+}
+
+.fa-brands:hover{
+   color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: rgb(72, 72, 72);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+@media(max-width:992px){
+    .nav  {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.nav li a{
+    text-decoration: none;
+    color: rgb(106, 106, 106);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.nav li a:hover{
+    color: orange;
+}
+
+/* carousel */
+
+.carousel-item{
+    position: relative;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 100px;
+}
+
+.carousel-item h6{
+    background-color: orange;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 35px;
+    border-radius: 8px;
+    animation: btm-to-tp 1s ease-in  forwards;
+    opacity: 0;
+}
+
+.carousel-item h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    animation: btm-to-tp-2 1s ease-in .3s forwards;
+    opacity: 0;
+    
+}
+
+.carousel-item h2{
+    animation: btm-to-tp-3 1s ease-in .7s forwards;
+    opacity: 0;
+}
+
+.carousel-item h3{
+    animation: btm-to-tp-5 1s ease-in 1s forwards;
+    opacity: 0;
+}
+
+.carousel-item button{
+    padding: 18px 40px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    animation: btm-to-tp-4 1s ease-in 1.3s forwards;
+    opacity: 0;
+    
+}
+
+.carousel-item .btn-2{
+    background-color: #fff;
+    color: black;
+}
+
+
+.carousel-item button:hover{
+    background-color: rgb(74, 73, 73);
+    color: #fff;
+    
+}
+
+.carousel-item .img-2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    animation: btm-to-tp-6 1s ease-in 2s forwards;
+    opacity: 0;
+}
+
+
+@keyframes btm-to-tp{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes btm-to-tp-2{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes btm-to-tp-3{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes btm-to-tp-4{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes btm-to-tp-5{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+
+@keyframes btm-to-tp-6{
+   
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+/* Add a black background color to the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+    border-radius: 50px / 15px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the "active" element to highlight the current page */
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    .topnav input[type=text] {
+      border: 1px solid #ccc;
+    }
+  }
+  
+
+
+
+
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  height: 36px;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  transform: translate(-50%, -50%);
+}
+
+
+

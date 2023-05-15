@@ -1,0 +1,176 @@
+ .navbar-brand img{
+    width: 44%;
+ }
+
+.login{
+    display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:rgb(19, 30, 37);
+
+ background-size:cover;
+  height:760px;
+  position:relative;
+ }
+  form{
+   padding:25px;
+   min-width:500px;
+   background-color:#fff;
+   border-radius:8px;
+   box-shadow:0px 0px 10px black;
+ }
+ input{
+ border:1px solid gray;
+ border-radius:5px;
+ margin-bottom:15px;
+ height:35px;
+ font-size:18px;
+ padding-left:10px;
+  width:100%
+ }
+ input:focus{
+ outline:none;
+ }
+ input:last-child{
+  background-color:green;
+  border:none;
+  border-radius:5px;
+  font-weight:bold;
+  color:#fff;
+ }
+ label{
+    font-family:arial;
+    font-size:18px;
+    font-weight:bold;
+
+ }
+ h1{
+    text-align:center;
+    margin-bottom:40px;
+     margin-top:15px;
+ }
+ 
+.login ul{
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+ top:0px;
+ left:0px;
+ background: #09347a;
+ position:absolute;
+  width:290px;
+ height: 100%;
+}
+.login li{
+ display: block;
+ box-sizing: border-box;
+ width: 100%;
+ padding: 20px 20px 20px 20px;
+ margin-left: -5px;
+ 
+ 
+}
+.login li:first-child{
+ margin-left: 0px;
+}
+a{
+ text-decoration: none;
+ color: white;
+ font-size: 15px;
+}
+
+/* Animation */
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+ font-weight: bold;
+}
+.animate {
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ flex-direction:column;
+ height:100%;
+ 
+}
+
+.animate h1{
+    color:#fff;
+    font-size:60px;
+    padding-top:-300px;
+    font-weight:bold;
+}
+
+.main{
+ display: flex;
+}
+.main .text{
+ color: #fff;
+ font-size: 60px;
+ font-weight: bold;
+}
+.main .option{
+ margin-left: 15px;
+ height: 100px;
+ line-height: 90px;
+ overflow: hidden;
+ margin-top: -20px;
+}
+.option li{
+ list-style: none;
+ color:#face30;
+ font-size:60px;
+ font-size: bold;
+ position: relative;
+ top: 0;
+ animation: slide 12s steps(1) infinite;
+}
+@keyframes slide{
+ 100%{
+     top: -360px;
+ }
+}
+.option li span{
+ position: relative;
+ margin: 5px 0;
+ line-height: 90px;
+ 
+}
+
+.option li .span1:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top:10px;
+    width: 100%;
+    height: 150px;
+    padding-top: 15px;
+    background: rgb(19, 30, 37) ;
+    border-left: 2px solid #face30;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing{
+ 40%,60%{
+     left: calc(100% + 30px)
+ }
+ 100%{
+     left:0px;
+ }
+}
+
+@media (max-width:750px){
+    .main{
+        display:block;
+    }
+
+}
+@media (max-width:450px){
+    .animate h1,.animate .text, .span1{
+        font-size:40px;
+    }
+    .option li .span1:after{
+            top:0px;
+    }
+}

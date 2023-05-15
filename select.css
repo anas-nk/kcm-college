@@ -1,0 +1,8 @@
+select{
+  width: 500px;
+  height: 35px;
+  margin-bottom: 15px;
+ }
+ select:focus{
+  outline: none;
+ }
